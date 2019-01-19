@@ -1,7 +1,6 @@
 class ShoppingCart {
     constructor(name) {
         this.array = []
-        
     }
 
     getItems() { 
@@ -9,7 +8,7 @@ class ShoppingCart {
     }
 
     addItem(itemName, quantity, price) {
-        this.getItems().push({'name': itemName, 'pricePerUnit': price, 'quantity': quantity});
+        this.getItems().push({'name': itemName, 'pricePerUnit': price, 'quantity': quantity})
     }
 
     clear() {
