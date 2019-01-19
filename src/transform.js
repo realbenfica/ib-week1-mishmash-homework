@@ -1,4 +1,3 @@
-
 function groupAdultsByAgeRange (people)  {
     return people
         // Filter out younger than 18

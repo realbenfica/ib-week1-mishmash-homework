@@ -1,5 +1,5 @@
 class ShoppingCart {
-    constructor(name) {
+    constructor() {
         this.array = []
     }
 
